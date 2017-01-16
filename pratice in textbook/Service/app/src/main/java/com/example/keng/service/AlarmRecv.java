@@ -1,0 +1,18 @@
+package com.example.keng.service;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.widget.Toast;
+
+public class AlarmRecv extends BroadcastReceiver {
+    public AlarmRecv() {
+    }
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        // TODO: This method is called when the BroadcastReceiver is receiving
+        // an Intent broadcast.
+        Toast.makeText(context,"時間到了！",Toast.LENGTH_SHORT).show();
+    }
+}

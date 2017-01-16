@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android "
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android2:id="@+id/left"
+        android2:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom|withText"
+        android2:title="上一頁"></item>
+
+    <item android2:id="@+id/right"
+        android2:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom|withText"
+        android2:title="下一頁"></item>
+    <item android2:id="@+id/toF"
+        android2:showAsAction="never"
+        android2:title="轉華氏"
+        ></item>
+    <item android2:id="@+id/toC"
+        android2:showAsAction="never"
+        android2:title="轉攝氏"></item>
+    <item android2:id="@+id/item1"
+        android2:showAsAction="never"
+        android2:title="子選單">
+        <menu>
+            <item android2:id="@+id/subitem1"
+                android2:title="子選單"></item>
+            <item android2:id="@+id/subitem2"
+                android2:title="子選單2"></item>
+        </menu>
+    </item>
+</menu>

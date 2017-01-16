@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.keng.coundown.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chicken"
+        android:id="@+id/imageView2"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_weight="0.14"
+        android:background="#002f5d"
+        android:textColor="@android:color/background_light"
+        tools:text="期限：2016年11月8日"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textAlignment="center"
+        android:paddingBottom="1dp"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btn"
+        android:textSize="24sp"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="0.3"
+        android:background="?attr/colorBackgroundFloating" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ch8_MultiActivity</string>
+    <string name="title_activity_second">活動2</string>
+    <string name="title_activity_third">活動3</string>
+</resources>

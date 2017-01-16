@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CH6_早上最後啦</string>
+    <string-array name="cinema">
+        <item>台北影城</item>
+        <item>板橋影城</item>
+        <item>台中影城</item>
+        <item>台南影城</item>
+        <item>高雄影城</item>
+    </string-array>
+    <string-array name="time">
+        <item>早上</item>
+        <item>下午</item>
+        <item>晚上</item>
+    </string-array>>
+</resources>
